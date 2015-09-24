@@ -4,7 +4,7 @@ import java.security.SecureRandom;
 
 public class Game {
 
-	// CONTRUCTOR ++++++++++++++++++++++++++++++
+	// CONSTRUCTOR ++++++++++++++++++++++++++++++
 	public Game(){
 		
 	}
@@ -23,7 +23,7 @@ public class Game {
 			
 		}
 		
-		System.out.printf("You selected %d with %d sides %n",  numDice, numSides);
+		System.out.printf("You selected %d die with %d sides %n",  numDice, numSides);
 		
 		
 		SecureRandom generateRandom = new SecureRandom();
